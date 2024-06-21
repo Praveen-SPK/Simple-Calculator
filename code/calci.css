@@ -1,0 +1,68 @@
+body{
+    background-image:url(../images/tic-tac-toe-1777815_1280.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    position: relative;
+    background-color:transparent;
+    border: 1px solid rgba(249, 249, 249, 0.902);
+    border-radius: 15px;
+    opacity: 0.6;
+}
+.calculator.blur {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity for blurred effect */
+}
+.display{
+    cursor:text;
+    text-align: left;
+    border: none;
+    padding: 21px;
+    font-size: 2rem;
+    background-color:lightsteelblue;
+    color:black;
+}
+#key{
+    border-top-left-radius: 15px;
+
+
+}
+#clear{
+    background-color: rgb(210, 170, 109);
+    color: rgb(10, 10, 10);
+    border-top-right-radius:15px;
+    cursor: pointer;
+}
+#clear:hover{
+    background-color:transparent;
+    color: rgb(249, 245, 245);
+    
+}
+
+.numbers{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 5px;
+    margin: 10px;
+    background-color:transparent;
+}
+.numbers>button{
+    border-radius: 60%;
+    font-size: larger;
+    padding: 15px;
+    border: 1px solid rgb(168, 158, 158);
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    
+    }
+.numbers>button:hover{
+    background-color:lightslategrey;
+    color:black;
+    box-shadow: 2px 2px 15px rgb(59, 114, 126);
+}

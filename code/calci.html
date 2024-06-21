@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calci.css">
+</head>
+<body >
+    <div class="calculator">
+        <div >
+            <input class="display" type="text" placeholder="0" id="key" readonly>
+            <button class="display" id = "clear" onclick="Clear()">AC</button>
+        </div>
+        <div class="numbers" id="num">
+            <button onclick="NumberToDisplay('7')" >7</button>
+            <button onclick="NumberToDisplay('8')">8</button>
+            <button onclick="NumberToDisplay('9')">9</button>
+            <button onclick="NumberToDisplay('+')">+</button>
+            <button onclick="NumberToDisplay('4')">4</button>
+            <button onclick="NumberToDisplay('5')">5</button>
+            <button onclick="NumberToDisplay('6')">6</button>
+            <button onclick="NumberToDisplay('-')">-</button>
+            <button onclick="NumberToDisplay('1')">1</button>
+            <button onclick="NumberToDisplay('2')">2</button>
+            <button onclick="NumberToDisplay('3')">3</button>
+            <button onclick="NumberToDisplay('*')">*</button>
+            <button onclick="NumberToDisplay('.')">.</button>
+            <button onclick="NumberToDisplay('0')">0</button>
+            <button onclick="Calculate()">=</button>
+            <button onclick="NumberToDisplay('/')">/</button>
+           
+            
+        </div>
+    
+</div>
+<script src="calci.js"></script>
+</body>
+</html>
